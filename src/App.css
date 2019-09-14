@@ -1,0 +1,311 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #24292e;
+  height: 10vh;
+  padding-bottom: 5px;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 0.5em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  background-color: #24292e;
+  color: white;
+}
+
+.search {
+  margin-top: 1em;
+  height: 30px;
+  width: 15em;
+  padding: 4px;
+  margin-right: 3em;
+  border: none;
+  border-radius: 5px;
+  background-color: #3f4448;
+  font-size: 14px;
+}
+
+.sign-in {
+  margin-right: 2em;
+  border: none;
+  font-size: 1em;
+}
+
+.sign-up {
+  border: 1px solid white;
+  margin-right: 2em;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.main-section {
+  background: url('images/bg-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+.intro-h1 {
+  color: white;
+  font-size: 64px;
+  /* max-width: 200px;; */
+}
+
+.overlay {
+  height: 90vh;
+  width: 100%;
+  position: absolute;
+  background-color: #000000de;
+  top: 71px;
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  background-color: white;
+  height: 500px;
+  width: 425px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+
+.intro p {
+  color: gray;
+  max-width: 400px;
+}
+
+label, #username, #email-input, #password-input {
+  display: block;
+}
+
+.intro {
+  padding-right: 24px;
+  padding-left: 24px;
+  text-align: left;
+  margin-left: 5%;
+}
+
+#username, #email-input, #password-input {
+  width: 95%;
+  height: 25px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #2b292e;
+  margin-bottom: 15px;
+  border: 1px solid lightgray;
+}
+
+label {
+  color: #2b292e;
+  margin-bottom: 5px;
+}
+
+.sign-up-form {
+  margin-right: 10%;
+  margin-top: 3%;
+}
+
+form p {
+  font-size: small;
+}
+
+.Sign-up-for-github {
+  background-color: #2ebc4f;
+  color: white;
+  border: none;
+  height: 12%;
+  width: 95%;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.details {
+  background-color: #fefefe;
+}
+
+.h1 {
+  color: black;
+  font-size: 40px;
+}
+
+.get-started {
+  margin-top: 5px;
+  margin: 5em 3em 4em 3em;
+  border-radius: 5px;
+  box-shadow: 1px -1px 7px 2px #9e9e9e6b;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.get-started-para {
+  max-width: 400px;
+  padding-left: 2%;
+}
+
+.get-started-para p {
+  font-size: large;
+  color: black;
+}
+
+.details-list {
+  display: flex;
+  margin-right: 3em;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  padding-right: 2em;
+}
+
+img {
+  height: 70px;
+  width: 70px;
+}
+
+.contact, .try-server, .try-cloud {
+  height: 4em;
+  width: 10em;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.try-server, .try-cloud {
+  border: none;
+  background-color: #1074e7;
+}
+
+.contact {
+  background-color: white;
+  color: #1074e7;
+  border: 1px solid #1074e7;
+}
+
+.intro-github {
+  height: 400px;
+  width: 1000px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  background-image: url('images/bg-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.intro-github-h1 {
+  color: white;
+  margin-top: 4em;
+  font-size: xx -large;
+}
+
+.intro-github p {
+  color: gray;
+  font-size: large;
+}
+
+.check-it-out {
+  border-radius: 4px;
+  margin-top: 2em;
+  height: 4em;
+  background: url();
+  width: 10em;
+  border: 1px solid #1074e7;
+}
+
+.organizations{
+  text-align: center;
+  margin-top:5em;
+  color: #494d4f;
+  font-size: x-large;
+}
+
+.organizations img{
+  height: 6em;
+  width:40em;
+}
+
+.github-for-teams{
+  text-align: center;
+  margin-top: 8em;
+}
+
+.github-teams-h1{
+  font-size: 50px;
+  margin-top: 0px;  
+  color:#24292e;
+}
+
+.github-teams-para{
+  color: #3f4448;
+  font-size: larger;
+}
+
+.github-teams-button{
+  height: 4em;
+  width:13em;
+  color: #1074e7;
+  border: 1px solid #1074e7;
+  padding: 3px 4px;
+  background-color: white;
+  border-radius: 3px;
+  font-size: large;
+}
+
+.team-work-features{
+  display: flex;
+  justify-content: space-around;
+  margin-top:3em;
+}
+
+.feature-list-item{
+  margin-bottom: 2em;
+  width:25em;
+  padding:7px;
+  height: 11em;
+}
+
+.team-work-features figure img{
+height: 50em;
+width:37em;
+}
+
+.feature-list-item:hover{
+  box-shadow: 1px -1px 7px 2px #9e9e9e6b;
+}
+
+.companies-using-github > p{
+  color: #3f4448;
+  font-size: larger;
+}
+
+.companies-using-github{
+  text-align: center;
+}
+
+.companies{
+  display: flex;
+  justify-content: center;
+}
+
+.company{
+  height: 250px;
+  width:300px;
+  border:1px solid black;
+  margin-right:1em;
+}
